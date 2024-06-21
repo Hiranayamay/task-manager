@@ -1,4 +1,4 @@
-Create a folder in your local system with the name task-manager and download all the files from repository and arrange them in the order as they were put together in the repository .The heirarchy of the files is very important.Either run the folder on the VS code with the steps given below:
+Create a folder in your local system with the name task-manager and download the TaskList.js,TaskForm.js and TaskDetails.js with App.js and index.js files.Make Sure to copy them in  the order of the folders they were already there in the folders of the repository.All other files will be installed when you will download node.js and npm in your system..The heirarchy of the files as they were in the repository folder is very important.Either run the folder on the VS code with the steps given below:
 
 Step 1: Install Node.js and npm
 First, you need to have Node.js and npm installed. Node.js is a JavaScript runtime, and npm is the Node package manager, which you will use to install Create React App and other packages.
