@@ -7,32 +7,29 @@ Install Homebrew (if you don't have it already). Homebrew is a package manager f
 
 Open your terminal and run:
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 
 Install Node.js and npm using Homebrew:
 
-bash
-brew install node
+```brew install node```
 
 Step 2: Create a New React Application
 Install Create React App globally using npm:
 
-bash
-npm install -g create-react-app
+```npm install -g create-react-app```
 Create a new React project:
+```create-react-app task-manager```
 
-bash
 This will create a new directory called task-manager with a React application set up.
 
 Step 3: Navigate to the Project Directory
 Change into the new project directory:
 
-bash
-cd task-manager
+```cd task-manager```
 Step 4: Start the Development Server
 Start the React development server:
 
-bash
+```npm start```
 This command will start the development server and open your new React application in the default web browser at http://localhost:3000.
 
 Step 5: Set Up Your React Application
@@ -41,10 +38,14 @@ You can now start adding your components and developing your application. Below 
 Project Setup
 Install Bootstrap for styling:
 
-bash
-npm install bootstrap
+```npm install bootstrap```
+after installing bootstrap open the terminal,head to the directory with cd task-manager and run:
+```npm start```
+
+make sure you run all the commands in the directory path.cd task-manager is the command to head to your directory and thrn type ```npm start```
 
 npm start
+
 create-react-app task-manager# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
