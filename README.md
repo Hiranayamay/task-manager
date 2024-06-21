@@ -1,4 +1,51 @@
-# Getting Started with Create React App
+Create a folder in your local system with the name task-manager and download all the files from repository and arrange them in the order as they were put together in the repository .The heirarchy of the files is very important.Either run the folder on the VS code with the steps given below:
+
+Step 1: Install Node.js and npm
+First, you need to have Node.js and npm installed. Node.js is a JavaScript runtime, and npm is the Node package manager, which you will use to install Create React App and other packages.
+
+Install Homebrew (if you don't have it already). Homebrew is a package manager for macOS.
+
+Open your terminal and run:
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+Install Node.js and npm using Homebrew:
+
+bash
+brew install node
+
+Step 2: Create a New React Application
+Install Create React App globally using npm:
+
+bash
+npm install -g create-react-app
+Create a new React project:
+
+bash
+This will create a new directory called task-manager with a React application set up.
+
+Step 3: Navigate to the Project Directory
+Change into the new project directory:
+
+bash
+cd task-manager
+Step 4: Start the Development Server
+Start the React development server:
+
+bash
+This command will start the development server and open your new React application in the default web browser at http://localhost:3000.
+
+Step 5: Set Up Your React Application
+You can now start adding your components and developing your application. Below is a quick guide on setting up a basic Task Management Application as discussed earlier.
+
+Project Setup
+Install Bootstrap for styling:
+
+bash
+npm install bootstrap
+
+npm start
+create-react-app task-manager# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
